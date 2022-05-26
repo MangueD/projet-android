@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".advertiser.bottomNav.search.SearchFragmentAdvertiser">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/client_activity_advertdetails_appbar">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/client_activity_advertdetails_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="Details"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/client_activity_advertdetails_scrollview"
+        android:layout_below="@id/client_activity_advertdetails_appbar">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/client_activity_advertdetails_relativelayout"
+            tools:context=".advertiser.bottomNav.myadverts.AddFragment">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/client_activity_advertdetails_brand_tv"
+                android:text="Brand" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/client_activity_advertdetails_brand_tv"
+                android:id="@+id/client_activity_advertdetails_brand_et"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/client_activity_advertdetails_model_tv"
+                android:layout_below="@id/client_activity_advertdetails_brand_et"
+                android:text="Model" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/client_activity_advertdetails_model_tv"
+                android:id="@+id/client_activity_advertdetails_model_et"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/client_activity_advertdetails_year_tv"
+                android:layout_below="@id/client_activity_advertdetails_model_et"
+                android:text="Year" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/client_activity_advertdetails_year_tv"
+                android:id="@+id/client_activity_advertdetails_year_et"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/client_activity_advertdetails_year_et"
+                android:id="@+id/client_activity_advertdetails_distance_tv"
+                android:text="Distance" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/client_activity_advertdetails_distance_tv"
+                android:id="@+id/client_activity_advertdetails_distance_et"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/client_activity_advertdetails_distance_et"
+                android:id="@+id/client_activity_advertdetails_price_tv"
+                android:text="Price" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/client_activity_advertdetails_price_tv"
+                android:id="@+id/client_activity_advertdetails_price_et"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/client_activity_advertdetails_imagell"
+                android:layout_below="@id/client_activity_advertdetails_price_et"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/client_activity_advertdetails_imagell"
+                android:id="@+id/client_activity_advertdetails_owner_tv"
+                android:text="Owner" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/client_activity_advertdetails_owner_tv"
+                android:id="@+id/client_activity_advertdetails_owner_et"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/client_activity_advertdetails_owner_et"
+                android:id="@+id/client_activity_advertdetails_savebt"
+                android:text="save this advert"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/client_activity_advertdetails_savebt"
+                android:id="@+id/client_activity_advertdetails_contactlayout"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

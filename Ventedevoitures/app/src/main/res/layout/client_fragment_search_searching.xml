@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".client.bottomNav.search.SearchingFragmentClient">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/client_fragment_search_searching_appbarlayout">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/client_fragment_search_searching_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="Recherche"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/client_fragment_search_searching_brandtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/client_fragment_search_searching_appbarlayout"
+        android:text="Marque" />
+    <EditText
+        android:layout_below="@id/client_fragment_search_searching_brandtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/client_fragment_search_searching_brandet"/>
+
+    <TextView
+        android:layout_below="@id/client_fragment_search_searching_brandet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modele"
+        android:id="@+id/client_fragment_search_searching_modeltv"/>
+    <EditText
+        android:layout_below="@id/client_fragment_search_searching_modeltv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/client_fragment_search_searching_modelet"/>
+
+    <Button
+        android:layout_below="@id/client_fragment_search_searching_modelet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/client_fragment_search_searching_confirmbt"
+        android:text="Rechercher"/>
+</RelativeLayout>

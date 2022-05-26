@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".advertiser.bottomNav.myadverts.AddFragment">
+
+    <TextView
+        android:id="@+id/advertiser_fragment_add_brand_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marque" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advertiser_fragment_add_brand_tv"
+        android:id="@+id/advertiser_fragment_add_brand_et"/>
+
+    <TextView
+        android:id="@+id/advertiser_fragment_add_model_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advertiser_fragment_add_brand_et"
+        android:text="Modele" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advertiser_fragment_add_model_tv"
+        android:id="@+id/advertiser_fragment_add_model_et"/>
+
+    <TextView
+        android:id="@+id/advertiser_fragment_add_year_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advertiser_fragment_add_model_et"
+        android:text="Année de production" />
+
+    <EditText
+        android:id="@+id/advertiser_fragment_add_year_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advertiser_fragment_add_year_tv"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/advertiser_fragment_add_distance_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advertiser_fragment_add_year_et"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="-3dp"
+        android:text="Distance" />
+
+    <EditText
+        android:id="@+id/advertiser_fragment_add_distance_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advertiser_fragment_add_distance_tv"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/advertiser_fragment_add_price_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advertiser_fragment_add_distance_et"
+        android:text="Prix" />
+
+    <EditText
+        android:id="@+id/advertiser_fragment_add_price_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advertiser_fragment_add_price_tv"
+        android:inputType="number" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advertiser_fragment_add_price_et"
+        android:id="@+id/advertiser_fragment_add_radio">
+
+        <RadioButton
+            android:id="@+id/advertiser_fragment_add_radio_rent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location" />
+
+        <RadioButton
+            android:id="@+id/advertiser_fragment_add_radio_sell"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vente" />
+    </RadioGroup>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/advertiser_fragment_add_emailcb"
+        android:layout_below="@id/advertiser_fragment_add_radio"
+        android:text="Email"/>
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/advertiser_fragment_add_phonecb"
+        android:layout_below="@id/advertiser_fragment_add_emailcb"
+        android:text="Phone">
+
+    </CheckBox>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/advertiser_fragment_add_imagell"
+        android:layout_below="@id/advertiser_fragment_add_phonecb"
+        />
+
+    <Button
+        android:id="@+id/advertiser_fragment_add_confirmbt"
+        android:layout_width="205dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="514dp"
+        android:layout_marginEnd="105dp"
+        android:text="Confirmer" />
+
+
+</RelativeLayout>
+
+</ScrollView>

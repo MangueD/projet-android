@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".advertiser.bottomNav.search.SearchFragmentAdvertiser">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/advertiser_activity_edit_sell_appbar">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/advertiser_activity_edit_sell_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="Edit"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/advertiser_activity_edit_sell_appbar">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/advertiser_activity_edit_sell_rental_relativelayout"
+            tools:context=".advertiser.bottomNav.myadverts.AddFragment">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/advertiser_activity_edit_sell_rental_brand_tv"
+                android:text="Brand" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/advertiser_activity_edit_sell_rental_brand_tv"
+                android:id="@+id/advertiser_activity_edit_sell_rental_brand_et"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/advertiser_activity_edit_sell_rental_model_tv"
+                android:layout_below="@id/advertiser_activity_edit_sell_rental_brand_et"
+                android:text="Model" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/advertiser_activity_edit_sell_rental_model_tv"
+                android:id="@+id/advertiser_activity_edit_sell_rental_model_et"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/advertiser_activity_edit_sell_rental_year_tv"
+                android:layout_below="@id/advertiser_activity_edit_sell_rental_model_et"
+                android:text="Year" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/advertiser_activity_edit_sell_rental_year_tv"
+                android:id="@+id/advertiser_activity_edit_sell_rental_year_et"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_below="@id/advertiser_activity_edit_sell_rental_year_et"
+                android:id="@+id/advertiser_activity_edit_sell_rental_distance_tv"
+                android:text="Distance" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/advertiser_activity_edit_sell_rental_distance_tv"
+                android:id="@+id/advertiser_activity_edit_sell_rental_distance_et"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/advertiser_activity_edit_sell_rental_distance_et"
+                android:id="@+id/advertiser_activity_edit_sell_rental_price_tv"
+                android:text="Price" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/advertiser_activity_edit_sell_rental_price_tv"
+                android:id="@+id/advertiser_activity_edit_sell_rental_price_et"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/advertiser_activity_edit_sell_rental_imagell"
+                android:layout_below="@id/advertiser_activity_edit_sell_rental_price_et"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:layout_below="@id/advertiser_activity_edit_sell_rental_imagell"
+                android:id="@+id/advertiser_activity_edit_sell_rental_editbt"/>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

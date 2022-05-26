@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/advertiser_item_home"
+        android:enabled="true"
+        android:title="Home"/>
+    <item
+        android:id="@+id/advertiser_item_search"
+        android:enabled="true"
+        android:title="Rechercher" />
+    <item
+        android:id="@+id/advertiser_item_myadverts"
+        android:enabled="true"
+        android:title="Mes annonces" />
+</menu>

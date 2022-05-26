@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".advertiser.loginRegister.LoginFragmentAdvertiser">
+
+        <TextView
+            android:id="@+id/client_fragment_register_username_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/client_fragment_register_username_et"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="242dp"
+            android:layout_marginBottom="0dp"
+            android:text="Username" />
+
+        <EditText
+            android:id="@+id/client_fragment_register_username_et"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/client_fragment_register_password_tv"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="0dp" />
+
+        <TextView
+            android:id="@+id/client_fragment_register_password_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/client_fragment_register_password_et"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="244dp"
+            android:layout_marginBottom="-1dp"
+            android:text="Password" />
+
+        <EditText
+            android:id="@+id/client_fragment_register_password_et"
+            android:layout_width="199dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/client_fragment_register_button_reg"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="0dp"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/client_fragment_register_button_reg"
+            style="@android:style/Widget.Material.Light.Button.Toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/client_fragment_register_button_log"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/roboto"
+            android:text="Create account" />
+
+        <TextView
+            android:id="@+id/client_fragment_register_button_log"
+            android:layout_width="87dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="162dp"
+            android:layout_marginEnd="161dp"
+            android:layout_marginBottom="189dp"
+            android:text="Connexion"
+            android:textAlignment="center" />
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".advertiser.bottomNav.search.SearchFragmentAdvertiser">
+
+    <Button
+        android:id="@+id/client_fragment_search_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recherche" />
+
+    <Button
+        android:id="@+id/client_fragment_search_toyota"
+        android:layout_width="167dp"
+        android:layout_height="167dp"
+        android:layout_above="@+id/client_fragment_search_tesla"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="20dp"
+        android:text="Toyota" />
+
+    <Button
+        android:id="@+id/client_fragment_search_audi"
+        android:layout_width="167dp"
+        android:layout_height="167dp"
+        android:layout_above="@+id/client_fragment_search_renault"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="16dp"
+        android:layout_toStartOf="@+id/client_fragment_search_toyota"
+        android:text="Audi"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/client_fragment_search_tesla"
+        android:layout_width="167dp"
+        android:layout_height="167dp"
+        android:layout_above="@+id/client_fragment_search_bugatti"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="15dp"
+        android:text="Tesla" />
+
+    <Button
+        android:id="@+id/client_fragment_search_renault"
+        android:layout_width="167dp"
+        android:layout_height="167dp"
+        android:layout_above="@+id/client_fragment_search_peugeot"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toStartOf="@+id/client_fragment_search_tesla"
+        android:text="Renault" />
+
+    <Button
+        android:id="@+id/client_fragment_search_bugatti"
+        android:layout_width="167dp"
+        android:layout_height="167dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="74dp"
+        android:text="Bugatti" />
+
+    <Button
+        android:id="@+id/client_fragment_search_peugeot"
+        android:layout_width="167dp"
+        android:layout_height="167dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="222dp"
+        android:layout_marginBottom="75dp"
+        android:text="Peugeot" />
+
+</RelativeLayout>

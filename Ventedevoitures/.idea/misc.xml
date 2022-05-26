@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3035" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3035" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/account_create.xml" value="0.5541666666666667" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/advertiser_activity_edit.xml" value="0.5217391304347826" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/advertiser_activity_edit_rental.xml" value="0.3109375" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/advertiser_activity_edit_sell.xml" value="0.2695035460992908" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/advertiser_activity_main.xml" value="0.26595744680851063" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/advertiser_fragment_add.xml" value="0.5321557971014492" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/advertiser_fragment_home.xml" value="0.5321557971014492" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/advertiser_fragment_login.xml" value="0.5217391304347826" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/advertiser_fragment_my_adverts.xml" value="0.5217391304347826" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/advertiser_fragment_register.xml" value="0.5321557971014492" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/advertiser_fragment_rentals.xml" value="0.5226449275362319" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/advertiser_fragment_search.xml" value="0.33" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/advertiser_fragment_search_result.xml" value="0.2777777777777778" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/advertiser_fragment_search_searching.xml" value="0.3617021276595745" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/advertiser_fragment_sells.xml" value="0.5217391304347826" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/advertiser_login_register_activity.xml" value="0.5321557971014492" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/client_activity_advertdetails.xml" value="0.2689969604863222" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/client_activity_main.xml" value="0.5321557971014492" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/client_activity_send_email.xml" value="0.3416666666666667" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/client_fragment_advertiseradverts.xml" value="0.1" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/client_fragment_login.xml" value="0.5235507246376812" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/client_fragment_new.xml" value="0.15833333333333333" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/client_fragment_register.xml" value="0.5235507246376812" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/client_fragment_savedadverts.xml" value="0.5321557971014492" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/client_fragment_search.xml" value="0.3416666666666667" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/client_fragment_search_result.xml" value="0.31978319783197834" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/client_fragment_search_searching.xml" value="0.340625" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/connexion.xml" value="0.5321557971014492" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/fragment_blank.xml" value="0.6472019464720195" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/layout/profile_choice.xml" value="0.33" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/menu/advertiser_bottom_navigation_menu.xml" value="0.5541666666666667" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/menu/advertiser_result_topappbar.xml" value="0.5541666666666667" />
+        <entry key="..\:/Android project/Ventedevoitures/app/src/main/res/menu/client_bottom_navigation_menu.xml" value="0.5541666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

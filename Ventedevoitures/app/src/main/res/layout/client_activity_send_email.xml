@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".client.bottomNav.search.ResultFragmentClient">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/client_activity_send_email_appbar">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/client_activity_send_email_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title="Email"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_below="@id/client_activity_send_email_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/client_activity_send_email_scrollview">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".client.bottomNav.SendEmailActivity">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/client_activity_send_email_to_tv"
+                android:text="To:" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/client_activity_send_email_to_tv"
+                android:id="@+id/client_activity_send_email_to_et"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/client_activity_send_email_subject_tv"
+                android:layout_below="@id/client_activity_send_email_to_et"
+                android:text="Subject" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/client_activity_send_email_to_et"
+                android:id="@+id/client_activity_send_email_subject_et"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/client_activity_send_email_message_tv"
+                android:layout_below="@id/client_activity_send_email_subject_et"
+                android:text="Message" />
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/client_activity_send_email_message_tv"
+                android:id="@+id/client_activity_send_email_message_et"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Confirm"
+                android:layout_below="@id/client_activity_send_email_message_et"
+                android:id="@+id/client_activity_send_email_button"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
