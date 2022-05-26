@@ -247,7 +247,8 @@ public class ResultFragmentClient extends Fragment implements View.OnClickListen
                     intent.putExtra("image2", s.image2);
                     intent.putExtra("image3", s.image3);
                     intent.putExtra("image4", s.image4);
-
+                    intent.putExtra("via_email", s.email);
+                    intent.putExtra("via_phone", s.phone);
                     intent.putExtra("advertiser_id",s.owner);
                     startActivity(intent);
                 }

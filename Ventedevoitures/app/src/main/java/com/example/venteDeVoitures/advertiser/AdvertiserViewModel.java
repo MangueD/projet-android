@@ -90,6 +90,7 @@ public class AdvertiserViewModel extends ViewModel {
         rental.image2 = image2;
         rental.image3 = image3;
         rental.image4 = image4;
+        rental.timeStamp = Calendar.getInstance().getTimeInMillis();
         db.rentalDAO().insertRental(rental);
     }
 
@@ -102,6 +103,7 @@ public class AdvertiserViewModel extends ViewModel {
         sell.image2 = image2;
         sell.image3 = image3;
         sell.image4 = image4;
+        sell.timeStamp = Calendar.getInstance().getTimeInMillis();
         db.sellDAO().insertSell(sell);
     }
 

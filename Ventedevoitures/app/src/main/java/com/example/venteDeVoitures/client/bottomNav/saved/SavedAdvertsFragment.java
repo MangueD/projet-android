@@ -159,7 +159,8 @@ public class SavedAdvertsFragment extends Fragment {
                         @Override
                         public void onClick(View view) {
                             viewModel.deleteSaved(s);
-                            scrollView.removeView(linearLayoutl);
+                            linearLayoutl.removeView(ll);
+                            linearLayoutl.removeView(deleteBT);
                         }
                     });
                     linearLayoutl.addView(ll);
@@ -259,16 +260,18 @@ public class SavedAdvertsFragment extends Fragment {
                     });
 
                     Button deleteBT = new Button(getActivity());
-                    linearLayoutl.addView(deleteBT);
+
                     deleteBT.setText("Delete");
                     deleteBT.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
                             viewModel.deleteSaved(s);
-                            scrollView.removeView(linearLayoutl);
+                            linearLayoutl.removeView(ll);
+                            linearLayoutl.removeView(deleteBT);
                         }
                     });
                     linearLayoutl.addView(ll);
+                    linearLayoutl.addView(deleteBT);
 
 
                 }

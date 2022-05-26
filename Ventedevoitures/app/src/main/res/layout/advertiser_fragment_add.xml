@@ -123,10 +123,8 @@
         android:id="@+id/advertiser_fragment_add_confirmbt"
         android:layout_width="205dp"
         android:layout_height="37dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="514dp"
-        android:layout_marginEnd="105dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/advertiser_fragment_add_imagell"
         android:text="Confirmer" />
 
 

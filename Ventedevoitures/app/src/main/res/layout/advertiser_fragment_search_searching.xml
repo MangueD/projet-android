@@ -15,18 +15,18 @@
             android:id="@+id/advertiser_fragment_search_searching_toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            app:title="Researching"
+            app:title="Rechercher"
             style="@style/Widget.MaterialComponents.Toolbar.Primary"
             />
 
     </com.google.android.material.appbar.AppBarLayout>
 
     <TextView
-        android:layout_below="@id/advertiser_fragment_search_searching_appbarlayout"
+        android:id="@+id/advertiser_fragment_search_searching_brandtv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Brand"
-        android:id="@+id/advertiser_fragment_search_searching_brandtv"/>
+        android:layout_below="@id/advertiser_fragment_search_searching_appbarlayout"
+        android:text="marque" />
     <EditText
         android:layout_below="@id/advertiser_fragment_search_searching_brandtv"
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
         android:layout_below="@id/advertiser_fragment_search_searching_brandet"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Model"
+        android:text="Modele"
         android:id="@+id/advertiser_fragment_search_searching_modeltv"/>
     <EditText
         android:layout_below="@id/advertiser_fragment_search_searching_modeltv"
@@ -50,5 +50,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/advertiser_fragment_search_searching_confirmbt"
-        android:text="Search"/>
+        android:text="Recherche"/>
 </RelativeLayout>
